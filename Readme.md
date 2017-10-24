@@ -1,0 +1,1 @@
+conda env export -n WemoPowerStats | Where-Object -FilterScript {$_ -notmatch '^prefix: '}
