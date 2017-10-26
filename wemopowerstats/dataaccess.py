@@ -12,6 +12,7 @@ from bokeh.models import ColumnDataSource
 from bokeh.models import HoverTool, BoxZoomTool, ResetTool
 
 print(os.getcwd())
+# https://pygsheets.readthedocs.io/en/latest/authorizing.html
 # gc = pygsheets.authorize(service_file='My Project-b8132c60e17e.json', no_cache=True)
 gc = pygsheets.authorize(outh_file='client_secrets.json', outh_nonlocal=True, no_cache=True)
 
