@@ -1,6 +1,7 @@
 """__init__.py."""
 
 from .entry import cli
+from .dataaccess import GeneratePlot
 from ._version import __version__ as v
 
 __version__ = v
