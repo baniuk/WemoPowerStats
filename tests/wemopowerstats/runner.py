@@ -1,4 +1,4 @@
-import wemopowerstats
+from wemopowerstats import entry
 import logging
 
 # logger = logging.getLogger("runner")
@@ -15,7 +15,7 @@ import logging
 
 # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
 # can be used simple logger, see logging.basicConfig
-# python tests\wemopowerstats\runner.py client_secrets.json c:/Users/baniu/Downloads/ homenewver.log
+# python tests\wemopowerstats\wemopowerstats.py client_secrets.json c:/Users/baniu/Downloads/ homenewver.log
 if __name__ == "__main__":
     # args = parser.parse_args(['--version']) # this exits automtically
-    wemopowerstats.cli()
+    entry.cli()
