@@ -14,4 +14,4 @@ parser.add_argument("-d", "--debug", action="store_true", default=False, help="E
 parser.add_argument("-w", "--wildcard", action="store_true", default=False,
                     help="Log file name is wildcard. Use it to match all files that begin with it")
 parser.add_argument("output_file_path", help="Path to output plot. Should end with /")
-parser.add_argument("log_file", help="Name of file to open")
+parser.add_argument("log_file", help="Name of file to open or wildcard if -w option is present")
